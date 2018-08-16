@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background.png");
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    
+}
+
+#div-header1 {
+    height: 100%;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#div-header2 {
+    /* background-color: lightblue; */
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#h1-header1 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 100%;
+    width: 250px;
+    padding-top: 20px;
+   text-align: center;
+}
+
+#div-main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px 30px 30px 30px;
+}
+ #h1-header2 {
+    color: #4aaaa5;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+ }
+
+ #image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+
+ p {
+    line-height: 1.8;
+ }
+
+ footer {
+    background-color: #666666;
+    color: white;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    height: 45px;
+    width: 100%;
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10px;
+ }
+
+ input[type=text] {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+ }
+
+ #name, #email {
+    height: 30px;
+ }
+
+ textarea {
+    height: 150px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+ input[type=submit] {
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    border: 0;
+ }
+
+ input[type=submit]:hover {
+    background-color: #407270;
+ }
