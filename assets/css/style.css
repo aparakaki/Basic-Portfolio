@@ -15,7 +15,7 @@ header {
     border-width: 0px 0px 1px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 80px;
-    
+    width: 100%;
 }
 
 #div-header1 {
@@ -25,15 +25,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-}
-
-#div-header2 {
-    /* background-color: lightblue; */
-    width: 300px;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 h1 {
@@ -70,6 +61,15 @@ h1 {
     margin-bottom: 40px;
     padding: 40px 30px 30px 30px;
 }
+
+#div-header2 {
+    width: 250px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
  #h1-header2 {
     color: #4aaaa5;
     border-color: #cccccc;
